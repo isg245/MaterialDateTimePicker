@@ -39,7 +39,7 @@ repositories {
 }
 
 dependencies {
-  compile 'com.github.isg245:MaterialDatetimePicker:2.4.3'
+  compile 'com.github.isg245:MaterialDatetimePicker:2.4.4'
 }
 ```
 
