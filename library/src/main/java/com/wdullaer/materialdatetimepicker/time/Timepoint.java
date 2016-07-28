@@ -113,8 +113,8 @@ public class Timepoint implements Parcelable, Comparable<Timepoint> {
         return 0;
     }
 
-    public static final Creator<Timepoint> CREATOR
-            = new Creator<Timepoint>() {
+    public static final Parcelable.Creator<Timepoint> CREATOR
+            = new Parcelable.Creator<Timepoint>() {
         public Timepoint createFromParcel(Parcel in) {
             return new Timepoint(in);
         }

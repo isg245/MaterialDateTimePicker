@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.iml
 .gradle
 /local.properties
@@ -6,3 +7,35 @@
 .DS_Store
 /build
 /captures
+=======
+# Built application files
+*.apk
+*.ap_
+
+# Files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Gradle
+.gradle
+build/
+
+# System files
+.DS_Store
+.directory
+>>>>>>> 056661f8fe64b9a9387bfab96c3738f28bf5d5af

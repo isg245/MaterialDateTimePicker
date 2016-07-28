@@ -173,14 +173,14 @@ public class TimePickerDialog extends DialogFragment implements
     }
 
     public static TimePickerDialog newInstance(OnTimeSetListener callback,
-                                               int hourOfDay, int minute, int second, boolean is24HourMode) {
+            int hourOfDay, int minute, int second, boolean is24HourMode) {
         TimePickerDialog ret = new TimePickerDialog();
         ret.initialize(callback, hourOfDay, minute, second, is24HourMode);
         return ret;
     }
 
     public static TimePickerDialog newInstance(OnTimeSetListener callback,
-                                               int hourOfDay, int minute, boolean is24HourMode) {
+            int hourOfDay, int minute, boolean is24HourMode) {
         return TimePickerDialog.newInstance(callback, hourOfDay, minute, 0, is24HourMode);
     }
 

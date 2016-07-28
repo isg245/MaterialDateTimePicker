@@ -161,7 +161,7 @@ public class RadialPickerLayout extends FrameLayout implements OnTouchListener {
      * @param is24HourMode Indicates whether we should render in 24hour mode or with AM/PM selectors
      */
     public void initialize(Context context, TimePickerDialog timePickerDialog,
-                           Timepoint initialTime, boolean is24HourMode) {
+            Timepoint initialTime, boolean is24HourMode) {
         if (mTimeInitialized) {
             Log.e(TAG, "Time has already been initialized.");
             return;

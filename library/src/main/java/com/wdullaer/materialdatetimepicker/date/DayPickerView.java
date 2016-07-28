@@ -137,8 +137,7 @@ public abstract class DayPickerView extends ListView implements OnScrollListener
         setAdapter(mAdapter);
     }
 
-    public abstract MonthAdapter createMonthAdapter(Context context,
-                                                    DatePickerController controller);
+    public abstract MonthAdapter createMonthAdapter(Context context, DatePickerController controller);
 
     /*
      * Sets all the required fields for the list view. Override this method to

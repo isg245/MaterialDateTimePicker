@@ -158,7 +158,7 @@ public class DatePickerDialog extends DialogFragment implements
          * @param view The view associated with this listener.
          * @param year The year that was set.
          * @param monthOfYear The month that was set (0-11) for compatibility
-         *            with {@link Calendar}.
+         *            with {@link java.util.Calendar}.
          * @param dayOfMonth The day of the month that was set.
          */
         void onDateSet(DatePickerDialog view, int year, int monthOfYear, int dayOfMonth);
@@ -184,8 +184,8 @@ public class DatePickerDialog extends DialogFragment implements
      * @param dayOfMonth The initial day of the dialog.
      */
     public static DatePickerDialog newInstance(OnDateSetListener callBack, int year,
-                                               int monthOfYear,
-                                               int dayOfMonth) {
+            int monthOfYear, 
+            int dayOfMonth) {
         DatePickerDialog ret = new DatePickerDialog();
         ret.initialize(callBack, year, monthOfYear, dayOfMonth);
         return ret;
