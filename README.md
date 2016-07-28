@@ -33,8 +33,13 @@ Date Picker | Time Picker
 ## Setup
 The easiest way to add the Material DateTime Picker library to your project is by adding it as a dependency to your `build.gradle`
 ```java
+repositories {
+  jcenter()
+  maven { url "https://jitpack.io" }
+}
+
 dependencies {
-  compile 'com.github.isg245:MaterialDatetimePicker:2.4.1'
+  compile 'com.github.isg245:MaterialDatetimePicker:2.4.2'
 }
 ```
 
